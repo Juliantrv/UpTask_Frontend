@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@headlessui/react';
-import { useNavigate, useLocation, useParams } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import ErrorMessage from "../ErrorMessage";
 import type { checkPasswordForm } from '@/types/index';
