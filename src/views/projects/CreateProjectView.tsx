@@ -42,7 +42,7 @@ export default function CreateProjectView() {
 
       <nav className="my-5">
         <Link
-          className="bg-purple-400 hover:bg-purple-500 px-10 py-3 text-white text-xl font-bold cursor-pointer transition-colors"
+          className="bg-purple-400 hover:bg-purple-500 px-10 py-3 text-white text-xl font-bold cursor-pointer rounded-md transition-colors"
           to="/"
         >
           Volver a projectos
@@ -62,7 +62,7 @@ export default function CreateProjectView() {
         <input
           type="submit"
           value="Crear Proyecto"
-          className="bg-fuchsia-700 hover:bg-fuchsia-800 w-full p-3 text-white uppercase font-bold cursor-pointer transition-colors"
+          className="bg-fuchsia-700 hover:bg-fuchsia-800 w-full p-3 text-white uppercase font-bold cursor-pointer rounded-md transition-colors"
         />
       </form>
     </div>

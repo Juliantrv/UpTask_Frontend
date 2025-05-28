@@ -94,7 +94,7 @@ export default function NewPasswordForm({ token }: NewPasswordFormPropos) {
       <input
         type="submit"
         value="Establecer Contraseña"
-        className="bg-fuchsia-600 hover:bg-fuchsia-700 w-full p-3  text-white font-black  text-xl cursor-pointer rounded-sm"
+        className="bg-fuchsia-600 hover:bg-fuchsia-700 w-full p-3  text-white font-black  text-xl cursor-pointer rounded-md"
       />
     </form>
   );

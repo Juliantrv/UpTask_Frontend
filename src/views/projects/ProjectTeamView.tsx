@@ -47,13 +47,13 @@ export default function ProjectTeamView() {
 
         <nav className="my-5 flex gap-3">
           <button
-            className="bg-purple-400 hover:bg-purple-500 px-10 py-3 text-white text-xl font-bold cursor-pointer transition-colors"
+            className="bg-purple-400 hover:bg-purple-500 px-10 py-3 text-white text-xl font-bold cursor-pointer transition-colors rounded-xl"
             onClick={() => navigate("?addMember=true")}
           >
             Agregar colaborador
           </button>
           <Link
-            className="bg-fuchsia-600 hover:bg-fuchsia-700 px-10 py-3 text-white text-xl font-bold cursor-pointer transition-colors"
+            className="bg-fuchsia-600 hover:bg-fuchsia-700 px-10 py-3 text-white text-xl font-bold cursor-pointer transition-colors rounded-xl"
             to={`/projects/${projectId}`}
           >
             Volver a proyecto
@@ -79,7 +79,7 @@ export default function ProjectTeamView() {
                     <MenuButton className="-m-2.5 block p-2.5 text-gray-500 hover:text-gray-900">
                       <span className="sr-only">opciones</span>
                       <EllipsisVerticalIcon
-                        className="h-9 w-9"
+                        className="h-9 w-9 cursor-pointer"
                         aria-hidden="true"
                       />
                     </MenuButton>
@@ -96,7 +96,7 @@ export default function ProjectTeamView() {
                         <MenuItem>
                           <button
                             type="button"
-                            className="block px-3 py-1 text-sm leading-6 text-red-500"
+                            className="block px-3 py-1 text-sm leading-6 text-red-500 cursor-pointer"
                             onClick={ () => mutate({ projectId, userId: member._id }) }
                           >
                             Eliminar del Proyecto

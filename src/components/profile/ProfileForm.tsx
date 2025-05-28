@@ -77,7 +77,7 @@ export default function ProfileForm({ data }: ProfileFormProps) {
                 <input
                     type="submit"
                     value='Guardar Cambios'
-                    className="bg-fuchsia-600 w-full p-3 text-white uppercase font-bold hover:bg-fuchsia-700 cursor-pointer transition-colors"
+                    className="bg-fuchsia-600 w-full p-3 text-white uppercase font-bold hover:bg-fuchsia-700 cursor-pointer rounded-md transition-colors"
                 />
             </form>
         </div>
